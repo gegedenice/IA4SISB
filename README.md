@@ -86,6 +86,10 @@ _Ressources sur la conversion de textes en embeddinsg sémantisés_
 \
 Entraîné sur de très grandes quantités d’exemples de phrases, ce dispositif, qui permet au réseau de neurones d’élaborer une représentation interne des données porteuses des relations grammaticales et sémantiques entre chaque occurrence de chaque mot, conduit donc à convertir et à projeter un espace de mots en un espace vectoriel sémantique de très grande dimension : ce qui est exactement la définition d’un LLM.
 
+Ces espaces de très grande dimension dépassent nos capacités cognitives de représentation, mais on tout de même saisir à quoi ressemble un espace d'embeddings en utilisant des techniques de [réduction dimensionnelle](https://en.wikipedia.org/wiki/Dimensionality\_reduction) qui donnent ce genre de cartographie tridimensionnelle
+
+{% embed url="https://projector.tensorflow.org/" %}
+
 Faire de l’inférence sur des LLM consiste ainsi à interagir avec le modèle (ie exploiter les embeddings) afin d’exécuter l’opération fondamentale de l’IA : faire des prédictions, en l’occurrence ici générer du contenu. Lorsque l’on pose une question à un LLM, la question est elle-même convertie en embeddings, puis projetée dans l'espace vectoriel du modèle, qui génère ainsi la suite du contenu (la réponse, mot après mot dans une boucle rétroactive) en calculant les distances entre tous les vecteurs du voisinage de celui représentant le prompt et choisit le plus proche. C'est le fonctionnement de base des modèles dits de fondation, qui permet à l'algorithme de produire des phrases qui font sens grammaticalement.
 
 ## Corollaires

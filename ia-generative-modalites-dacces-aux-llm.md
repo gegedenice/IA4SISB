@@ -28,7 +28,11 @@ Le seul interfacage homme-machine est l’application en ligne proposée par le 
 
 La plateforme HuggingFace, souvent comparée aux forges logicielles de type Github ou Gitlab pour le dépôt et le versioning de code, propose en plus de l'aspect repository des fonctionnalités et des intégrations qui en font une véritable ressource centrale dans l'écosystème des modèles d'IA génératives.&#x20;
 
-Il est ainsi par exemple possible depuis le site de créer et/ou lancer très simplement des environnements d'exécution pour faire tourner des applications web, bénéficier du client d'inférence mis en place par HuggingFace pour requêter des modèles par API sans les installer localement, déployer des endpoints d'inférence sur des services tiers type Amazon, déposer et versioner les datasets d'entraînement, créer des notebooks Python, proposer des cookbooks, rédige rdes billets de blog...
+Il est ainsi par exemple possible depuis le site&#x20;
+
+* bien sûr de rechercher des modèles (la plateforme en héberge plusieurs centaines de milliers) : [https://huggingface.co/models](https://huggingface.co/models)
+
+de créer et/ou lancer très simplement des environnements d'exécution pour faire tourner des applications web, bénéficier du client d'inférence mis en place par HuggingFace pour requêter des modèles par API sans les installer localement, déployer des endpoints d'inférence sur des services tiers type Amazon, déposer et versioner les datasets d'entraînement, créer des notebooks Python, proposer des cookbooks, rédiger des billets de blog...
 
 ## En pratique
 
