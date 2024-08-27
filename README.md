@@ -2,7 +2,7 @@
 description: Fondements (théoriques) de l’IA
 ---
 
-# Introduction : IA classique, IA générative, AGI
+# Bases théorique : IA classique, IA générative, AGI
 
 Les algorithmes d’IA au sens large reposent sur des fondements statistiques du siècle dernier (voire avant) et sont utilisés couramment dans des systèmes informatiques depuis une quinzaine d’années.
 
@@ -75,7 +75,7 @@ L’apport de ce nouveau type de réseau de neurones capable de plus d’effectu
 
 ***
 
-_Ressources sur la conversion de textes en embeddinsg sémantisés_
+_Ressources sur la conversion de textes en embeddings sémantisés_
 
 {% embed url="https://ig.ft.com/generative-ai/" %}
 

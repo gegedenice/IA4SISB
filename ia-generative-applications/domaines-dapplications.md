@@ -1,4 +1,4 @@
-# IA générative : domaines d'applications
+# Domaines d'applications
 
 {% tabs %}
 {% tab title="Chatbot" %}
@@ -15,7 +15,7 @@ Les chatbots (agents logiciels conversationnels simulant une conversation humain
 * En général, les LLM utilisés pour les chatbots sont des variantes conversationnelles des LLM de base : le modèle de langage “primaire” est fine-tuné (sur-entraîné) sur un corpus additionnel de type conversationnel puis soumis à un processus de renforcement humain (RLHF) pour affiner sa pertinence. Ces variantes conversationnelles sont portent la plupart du temps le nom du modèle suivi du suffixe "-chat" (exemple : [https://huggingface.co/meta-llama/Llama-2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat))
 * Lorsque l'utilisateur envoie un prompt au modèle via une interface web ou en ligne de commande, le prompt est lui-même converti en vecteurs puis projeté dans l'espace vectoriel du LLM, afin que les calculs de proximité entre vecteurs soient opérés et que le mot le plus proche du prompt (le plus probable) soit généré par le modèle
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Exemples
 
@@ -49,6 +49,16 @@ Le RAG consiste donc à intégrer des données externes (choisies par l’utilis
 * Content generation : au final, la prompt initial de l’utilisateur et les segments du contexte retenus en tant que données sémantiques les plus pertinentes sont plugés dans un même système d’instructions qui est alors envoyé au LLM, de manière à ce le contenu généré (ie les calculs de distance réalisés dans l’espace vectoriel du LLM) prenne en compte les informations contextuelles complémentaires préalablement sélectionnées.
 
 ### Implémentations
+
+On peut distinguer trois modes d'implémentation d'application de RAG sur ses propres corpus ou bases de connaissances
+
+* Utiliser une application en ligne (avec LLM en SaaS) permettant d'uploader ses documents
+
+{% embed url="https://chatgpt.com/" %}
+
+{% embed url="https://gemini.google.com/app" %}
+
+{% embed url="https://aistudio.google.com/app/prompts/new_chat" %}
 
 Il est assez facile de développer from scratch une application de RAG, néanmoins il existe une foultitude d’applications de RAG, notamment open source, qui évitent d’avoir à réinventer la roue
 

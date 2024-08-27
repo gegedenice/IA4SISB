@@ -1,4 +1,4 @@
-# GenAI : RAG
+# Applications de RAG
 
 ## RAG sur PV équipe de direction
 
