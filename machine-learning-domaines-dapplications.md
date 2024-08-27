@@ -22,5 +22,9 @@ Une fois le dataset d'entraînement prêt, il s'agit&#x20;
 * monitorer le système
 * mettre à jour le système
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>EXEMPLE SISB</td><td><a data-mention href="sisb-pistes-dimplementations/ml-outil-daide-aux-acquisitions.md">ml-outil-daide-aux-acquisitions.md</a></td><td></td><td><a href="sisb-pistes-dimplementations/ml-outil-daide-aux-acquisitions.md">ml-outil-daide-aux-acquisitions.md</a></td></tr><tr><td></td><td><a data-mention href="sisb-pistes-dimplementations/ml-outil-daide-au-desherbage.md">ml-outil-daide-au-desherbage.md</a></td><td></td><td></td></tr><tr><td></td><td><a data-mention href="sisb-pistes-dimplementations/ml-classification-de-publications.md">ml-classification-de-publications.md</a></td><td></td><td></td></tr><tr><td><a data-mention href="sisb-pistes-dimplementations/ml-moteur-de-recommandations.md">ml-moteur-de-recommandations.md</a></td><td></td><td></td><td></td></tr></tbody></table>
+***
+
+### Exemples SISB
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td><a data-mention href="sisb-pistes-dimplementations/ml-outil-daide-aux-acquisitions.md">ml-outil-daide-aux-acquisitions.md</a></td><td></td><td><a href="sisb-pistes-dimplementations/ml-outil-daide-aux-acquisitions.md">ml-outil-daide-aux-acquisitions.md</a></td></tr><tr><td></td><td><a data-mention href="sisb-pistes-dimplementations/ml-outil-daide-au-desherbage.md">ml-outil-daide-au-desherbage.md</a></td><td></td><td></td></tr><tr><td></td><td><a data-mention href="sisb-pistes-dimplementations/ml-classification-de-publications.md">ml-classification-de-publications.md</a></td><td></td><td></td></tr><tr><td><a data-mention href="sisb-pistes-dimplementations/ml-moteur-de-recommandations.md">ml-moteur-de-recommandations.md</a></td><td></td><td></td><td></td></tr></tbody></table>
 

@@ -1,0 +1,41 @@
+# IA générative : modalités d'accès aux LLM
+
+## Types d'accès
+
+Les modalités d'ouverture, donc d'accès, des LLM déterminent les possibilités d’implémentation en local, et diffèrent évidemment d’un modèle à l’autre.
+
+Néanmoins, en lien avec la standardisation des environnements et outils, on peut distinguer trois catégories de situation&#x20;
+
+### SaaS : modèle fermé, hebergé par le producteur (cloud) sans diffusion ou protocole d'exposition
+
+Le seul interfacage homme-machine est l’application en ligne proposée par le producteur du modèle, sans possibilité d'installation locale
+
+### Modèle hebergé par le producteur (cloud) et accessible par API web (en général selon le standard du client OpenAI)
+
+* API payante
+* API gratuite jusqu’à un certain nombre de requêtes
+* API gratuite sans restriction d’usage
+
+### Modèle ouvert sur HuggingFace
+
+* Téléchargeable en local dans sa version originale : selon le modèle, nécessite un serveur avec GPU
+* Si disponible, téléchargeable en local dans une version quantisée  (compressée) : modèle moins précis, peut nécessiter aussi du GPU
+* Si disponible, accessible par l’API d’inférence de la plateforme HuggingFace : gratuit, pratique pour des tests mais trop instable pour une app en prod
+
+## Particularités de la plateforme HuggingFace
+
+{% embed url="https://huggingface.co/" %}
+
+La plateforme HuggingFace, souvent comparée aux forges logicielles de type Github ou Gitlab pour le dépôt et le versioning de code, propose en plus de l'aspect repository des fonctionnalités et des intégrations qui en font une véritable ressource centrale dans l'écosystème des modèles d'IA génératives.&#x20;
+
+Il est ainsi par exemple possible depuis le site de créer et/ou lancer très simplement des environnements d'exécution pour faire tourner des applications web, bénéficier du client d'inférence mis en place par HuggingFace pour requêter des modèles par API sans les installer localement, déployer des endpoints d'inférence sur des services tiers type Amazon, déposer et versioner les datasets d'entraînement, créer des notebooks Python, proposer des cookbooks, rédige rdes billets de blog...
+
+## En pratique
+
+Comme souligné [ici](ia-generative-domaines-dapplications.md), la plupart des modèles de langage sont ouverts et documentés sur HuggingFace puisque l'open weight est autant dans l'intérêt du producteur du modèle que de l'utilisateur.
+
+De plus, en lien avec la standardisation des pratiques et outils, un certain nombre d’outils et librairies (open source) facilitent grandement l’installation et le déploiement de LLM en local, la plupart fournissant même le service web d’exposition par API compatible OpenAI, pour une intégration fluidifiée avec des applications web. Dans les faits donc, à partir du moment où un modèle est ouvert, et en dehors des critères relatifs à l’infrastructure de stockage nécessaire, il est relativement aisé d’installer et d’interagir localement avec un LLM.
+
+## Point de vigilance : data privacy
+
+Par construction, quel que soit le type de l’application qui mobilise un LLM (chatbot ou autre) et quel que soit le mode d’accès au LLM (plateforme ou API), toute requête sur un LLM est convertie en embeddings puis projetée dans l’espace du modèle. Par conséquent, il faut bien avoir conscience qu’à partir du moment où le modèle n’est pas hébergé localement, les données transitent vers l’hébergement tiers. La seule garantie de protection des données consiste donc à stocker le modèle sur son infrastructure locale.

@@ -2,6 +2,7 @@
 
 * [Introduction : IA classique, IA générative, AGI](README.md)
 * [Machine Learning : domaines d'applications](machine-learning-domaines-dapplications.md)
+* [IA générative : modalités d'accès aux LLM](ia-generative-modalites-dacces-aux-llm.md)
 * [IA générative : domaines d'applications](ia-generative-domaines-dapplications.md)
 
 ## SISB : pistes d'implémentations
