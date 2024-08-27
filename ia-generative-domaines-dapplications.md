@@ -29,9 +29,26 @@ Les chatbots (agents logiciels conversationnels simulant une conversation humain
 {% endtab %}
 
 {% tab title="RAG" %}
+## Applications RAG : chatbots avec Retrieval-augmented generation
+
+### Principes
+
+Le RAG (Retrieval Augmented Generation) est probablement à ce jour le use-case d’inférence sur des LLM le plus populaire. Aussi appelé “In-context learning”, ce dispositif de requêtage sur un LLM a pour but d’augmenter la précision et la pertinence des réponses du modèle en palliant aux limitations “natives” d’un modèle de langage : domaine de connaissances hors de son corpus d’apprentissage, corpus statique constitué à un instant T, hallucinations…
+
+Pour ce faire, il s'agit de combiner le pouvoir génératif des modèles de langage avec la capacité à récupérer des informations pertinentes issues de sources de données externes, autrement dit d’exploiter les capacités de calculs appliquées au langage naturel des LLMs sur des documents externes choisis par l'utilisateur.
+
+Le RAG consiste donc à intégrer des données externes (choisies par l’utilisateur) qui ne font pas partie du corpus d’apprentissage du LLM dans le processus de génération de contenu.
+
+### Aspects techniques : les 4 étapes du RAG
 
 
 
+* Data loading : la récupération des données là où elles se trouvent -- qu’il s’agisse de fichiers texte, de fichiers PDF, d’un autre site Web, d’une base de données ou d’une API -- pour constituer le corpus personnalisé qui va venir compléter les données d'entraînement du LLM
+* Indexing & embedding & storing : le corpus additionnel (les données contextuelles de l’utilisateur) est tout d’abord découpé en une suite de séquences de mots, chacune de ces séquences est ensuite convertie en vecteurs sémantiques avec un modèle d’embeddings, puis le tout est enfin stocké dans un index ou une base de données vectorielle (un vectorstore)
+* Query & retriever : le prompt de l’utilisateur, transformé en embedings avec le même modèle que l’étape 2, n’est pas envoyé directement au LLM mais d’abord vers le vectorstore afin d’y opérer des calculs de similarité sur les vecteurs du contexte et d'en extraire les segments les plus proches (considérés comme les plus pertinents, en accord avec le principe selon lequel des concepts similaires ont des embeddings similaires )
+* Content generation : au final, la prompt initial de l’utilisateur et les segments du contexte retenus en tant que données sémantiques les plus pertinentes sont plugés dans un même système d’instructions qui est alors envoyé au LLM, de manière à ce le contenu généré (ie les calculs de distance réalisés dans l’espace vectoriel du LLM) prenne en compte les informations contextuelles complémentaires préalablement sélectionnées.
 {% endtab %}
 {% endtabs %}
+
+
 

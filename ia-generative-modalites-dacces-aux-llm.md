@@ -32,7 +32,16 @@ Il est ainsi par exemple possible depuis le site&#x20;
 
 * bien sûr de rechercher des modèles (la plateforme en héberge plusieurs centaines de milliers) : [https://huggingface.co/models](https://huggingface.co/models)
 
-de créer et/ou lancer très simplement des environnements d'exécution pour faire tourner des applications web, bénéficier du client d'inférence mis en place par HuggingFace pour requêter des modèles par API sans les installer localement, déployer des endpoints d'inférence sur des services tiers type Amazon, déposer et versioner les datasets d'entraînement, créer des notebooks Python, proposer des cookbooks, rédiger des billets de blog...
+{% hint style="info" %}
+Modèles déposés par l'EPFL : [https://huggingface.co/models?search=EPFL](https://huggingface.co/models?search=EPFL)
+{% endhint %}
+
+* de créer et/ou lancer très simplement des environnements d'exécution pour faire tourner des applications web : [https://huggingface.co/spaces](https://huggingface.co/spaces)
+* bénéficier du client d'inférence mis en place par HuggingFace pour requêter des modèles par API sans les installer localement
+* déployer des endpoints d'inférence sur des services tiers type Amazon
+* déposer et versioner les datasets d'entraînement
+* créer des notebooks Python et proposer des cookbooks
+* rédiger des billets de blog...
 
 ## En pratique
 
