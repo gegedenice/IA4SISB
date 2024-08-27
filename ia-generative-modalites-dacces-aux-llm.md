@@ -1,4 +1,4 @@
-# IA générative : modalités d'accès aux LLM
+# IA générative : plateforme HuggingFace et modalités d'accès aux LLM
 
 ## Types d'accès
 

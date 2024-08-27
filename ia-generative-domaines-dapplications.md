@@ -47,9 +47,77 @@ Le RAG consiste donc à intégrer des données externes (choisies par l’utilis
 * Indexing & embedding & storing : le corpus additionnel (les données contextuelles de l’utilisateur) est tout d’abord découpé en une suite de séquences de mots, chacune de ces séquences est ensuite convertie en vecteurs sémantiques avec un modèle d’embeddings, puis le tout est enfin stocké dans un index ou une base de données vectorielle (un vectorstore)
 * Query & retriever : le prompt de l’utilisateur, transformé en embedings avec le même modèle que l’étape 2, n’est pas envoyé directement au LLM mais d’abord vers le vectorstore afin d’y opérer des calculs de similarité sur les vecteurs du contexte et d'en extraire les segments les plus proches (considérés comme les plus pertinents, en accord avec le principe selon lequel des concepts similaires ont des embeddings similaires )
 * Content generation : au final, la prompt initial de l’utilisateur et les segments du contexte retenus en tant que données sémantiques les plus pertinentes sont plugés dans un même système d’instructions qui est alors envoyé au LLM, de manière à ce le contenu généré (ie les calculs de distance réalisés dans l’espace vectoriel du LLM) prenne en compte les informations contextuelles complémentaires préalablement sélectionnées.
-*
+
+### Implémentations
+
+Il est assez facile de développer from scratch une application de RAG, néanmoins il existe une foultitude d’applications de RAG, notamment open source, qui évitent d’avoir à réinventer la roue
+
+* RAG avec interface graphique
+
+{% embed url="https://flowiseai.com/" %}
+
+* Frameworks open source de RAG
+
+{% embed url="https://anythingllm.com/" %}
+
+{% embed url="https://openwebui.com/" %}
+
+{% embed url="https://ragflow.io/" %}
+{% endtab %}
+
+{% tab title="Moteurs de recherche sémantiques" %}
+## Moteurs de recherche sémantiques
+
+### Principes
+
+Adossée à la recherche vectorielle par similarité, la recherche sémantique est une technologie de moteur de recherche qui interprète le sens et l’intention d’une requête en langage naturel et renvoie les contenus contextuellement les plus pertinents.
+
+Le principe de la recherche ne repose plus sur la reconnaissance de chaînes de caractères entre des mots-clés en entrée et des champs statiques préalablement indexés, mais sur la projection du contexte et de la signification d'une requête dans un espace de données sémantiquement encodées, rendant possible l'obtention de résultats de recherche plus pertinents quand bien même ils ne contiendraient aucun des mots de la requête initiale.
+
+### Aspects techniques
+
+La requête est transformée en embeddings (vecteurs sémantiques) puis projetée dans l’espace vectoriel d’un contexte donné, afin que soient opérés des calculs géométriques de distance entre vecteurs, des distances de faibles valeurs représentant alors des similarités sémantiques et non plus de simples proximités syntaxiques.
+
+Pour les moteurs de recherche généraliste (basés sur le web en temps réel), le processus est un peu plus complexe : en même temps que la requête est convertie en embeddings, les mots-clés les plus pertinents extrait de la requête (par un LLM) sont lancés pour une recherche classique sur le web. Le but de cette recherche est de collecter des informations supplémentaires sur le sujet qui pourraient aider le modèle de langage à générer une réponse plus précise et contextuelle. Les résultats de la recherche sont ensuite utilisés pour enrichir les embeddings de la question (de nouveaux embeddings -le contexte -  sont créés , le tout étant projeté dans l’espace vectoriel du LLM qui dispose alors de plus d'informations pour générer la réponse.
+
+### Exemples
+
+
+
+{% embed url="https://www.perplexity.ai/" %}
+
+{% embed url="https://exa.ai/search" %}
+{% endtab %}
+
+{% tab title="Prompt Engineering" %}
+## Exécution de tâches via le prompt engineering
+
+### Principes
+
+Le prompt engineering, aussi appelé « ingénierie de requête », est une technique qui consiste à fournir des instructions détaillées aux LLM  afin d’améliorer leurs performances.
+
+Concrètement, le prompt engineering permet de guider plus précisément LLM en lui donnant des indications sur la tâche à effectuer et le contexte dans lequel elle s’inscrit. Plutôt que de laisser le modèle répondre de manière générique à une question posée, le prompt engineering permet de cadrer la réponse attendue.
+
+En apparence simple, les différentes techniques et stratégies de prompt sont un un moyen assez robuste et sophistiqué d’exploiter les capacités d’un modèle de langage à comprendre une requête et à réaliser une tâche.
+
+### Aspects techniques
+
+
+
+Les techniques d’optimisation de la structure des prompts sont liées au concept d’In-context learning, c’est-à-dire d’apprentissage par le contexte (le RAG est également fondé sur cette notion). Afin de mieux guider le LLM en lui fournissant en input un contexte enrichi, on peut ainsi ajouter dans un prompt des instructions précises, l'historique des conversations, des spécifications de style, des exemples de format de réponse attendue, ou encore lui attribuer un rôle.
+
+Concrètement et très synthétiquement,on peut distinguer deux manières d’appliquer des techniques d’apprentissage par le contexte
+
+* One-shot Learning ou Few-shot learning : désigne le fait de fournir dans le prompt un exemple clair et précis (ou plusieurs exemples clairs et précis) de ce que le modèle doit imiter pour générer sa réponse afin de conditionner explicitement le contenu généré à suivre ces exemples
+* Chain-of-Thought Prompting (CoT) : désigne le fait de combiner des instructions très précises sur le processus de raisonnement attendu et du Few-Shot learning afin d’inciter un modèle de langage à articuler le même type de raisonnement avant de répondre à une question finale. Dans cette situation, le LLM répond à la question en expliquant pas à pas les étapes suivies pour aboutir au résultat.
+
+### Exemples
+
+{% embed url="https://huggingface.co/spaces/Geraldine/prompts_library" %}
 {% endtab %}
 {% endtabs %}
+
+
 
 
 
