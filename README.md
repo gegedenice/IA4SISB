@@ -73,6 +73,16 @@ Les Large Language Models sont des modèles de NLP  basés sur une catégorie sp
 
 L’apport de ce nouveau type de réseau de neurones capable de plus d’effectuer de l’encodage positionnel simultané, c’est-à-dire d’exécuter des calculs bidirectionnels et paraléllisés, a considérablement accru la “qualité” des embeddings produits, améliorant ainsi capacité des modèles de NLP à décrypter la complexité grammaticale du langage naturel et capter le sens des mots en fonction de leur contexte.&#x20;
 
+***
+
+_Ressources sur la conversion de textes en embeddinsg sémantisés_
+
+{% embed url="https://ig.ft.com/generative-ai/" %}
+
+{% embed url="https://poloclub.github.io/transformer-explainer/" %}
+
+***
+
 \
 Entraîné sur de très grandes quantités d’exemples de phrases, ce dispositif, qui permet au réseau de neurones d’élaborer une représentation interne des données porteuses des relations grammaticales et sémantiques entre chaque occurrence de chaque mot, conduit donc à convertir et à projeter un espace de mots en un espace vectoriel sémantique de très grande dimension : ce qui est exactement la définition d’un LLM.
 
