@@ -2,7 +2,9 @@
 
 {% tabs %}
 {% tab title="Chatbot" %}
-Applications de 1er niveau : chatbots basés sur de l'inférence basique
+
+
+## Applications de 1er niveau : chatbots basés sur de l'inférence basique
 
 ### Principes
 
