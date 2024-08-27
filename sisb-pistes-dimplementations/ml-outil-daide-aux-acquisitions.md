@@ -2,7 +2,7 @@
 
 ## Principes
 
-* Prédiction de la probabilité pour un document donné d'être emprunté dans l'année
+* Objectif : application d'un algorithme de classification binaire afin de prédire si un document X va être emprunté ou non.
 * Datasets : récupération et fusion de rapports Analytics afin d'obtenir un tableau assez grand pour être statistiquement significatif,  comprenant la variable cible (0/1 selon que le document ait déjà été emprunté ou non) et les variables prédictives jugées pertinentes (date de publication, titre, ebook EPFL, etc...)
 
 ## POC

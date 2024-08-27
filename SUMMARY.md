@@ -11,7 +11,7 @@
 * [ML : outil d'aide au desherbage](sisb-pistes-dimplementations/ml-outil-daide-au-desherbage.md)
 * [ML : classification de publications](sisb-pistes-dimplementations/ml-classification-de-publications.md)
 * [Ml : moteur de recommandations](sisb-pistes-dimplementations/ml-moteur-de-recommandations.md)
-* [GenAI : RAG](sisb-pistes-dimplementations/genai-rag.md)
+* [GenAI : applications de RAG](sisb-pistes-dimplementations/genai-applications-de-rag.md)
 * [Primo research assistant](https://swisscovery.slsp.ch/discovery/search?vid=41SLSP\_NETWORK:VU1\_UNION)
 * [GenAI : RAG sur métadonnées bibliographiques](sisb-pistes-dimplementations/genai-rag-sur-metadonnees-bibliographiques.md)
 * [GenAI : extraction de données](sisb-pistes-dimplementations/genai-extraction-de-donnees.md)
