@@ -47,8 +47,13 @@ Le RAG consiste donc à intégrer des données externes (choisies par l’utilis
 * Indexing & embedding & storing : le corpus additionnel (les données contextuelles de l’utilisateur) est tout d’abord découpé en une suite de séquences de mots, chacune de ces séquences est ensuite convertie en vecteurs sémantiques avec un modèle d’embeddings, puis le tout est enfin stocké dans un index ou une base de données vectorielle (un vectorstore)
 * Query & retriever : le prompt de l’utilisateur, transformé en embedings avec le même modèle que l’étape 2, n’est pas envoyé directement au LLM mais d’abord vers le vectorstore afin d’y opérer des calculs de similarité sur les vecteurs du contexte et d'en extraire les segments les plus proches (considérés comme les plus pertinents, en accord avec le principe selon lequel des concepts similaires ont des embeddings similaires )
 * Content generation : au final, la prompt initial de l’utilisateur et les segments du contexte retenus en tant que données sémantiques les plus pertinentes sont plugés dans un même système d’instructions qui est alors envoyé au LLM, de manière à ce le contenu généré (ie les calculs de distance réalisés dans l’espace vectoriel du LLM) prenne en compte les informations contextuelles complémentaires préalablement sélectionnées.
+*
 {% endtab %}
 {% endtabs %}
 
 
+
+### Exemples SISB
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
