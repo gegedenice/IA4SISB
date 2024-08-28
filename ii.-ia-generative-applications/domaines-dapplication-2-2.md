@@ -59,6 +59,28 @@ Les outils (“Tools”) correspondent à ces ensemble d'outils tiers qui permet
 ## Principes
 
 Les systèmes d'IA multi-agents consistent à associer plusieurs agents décisionnels interagissant les uns avec les autres pour résoudre des tâches complexes nécessitant la mise en oeuvre de raisonnements et de planification, chaque agent assumant un rôle unique dans le processus de génération.
+
+## Exemples
+
+### Génération de rapports/notes/études/analyses
+
+{% embed url="https://app.wordware.ai/share/264a8a63-5128-44e7-8947-acb755aa90e5/playground" %}
+{% endtab %}
+
+{% tab title="Cartographie" %}
+## Principes
+
+Convertir un corpus textuel en embeddings revient à dresser une spatialisation sémantique de ce corpus, mais la représentation d'espaces multidimensionnels dépasse (pour l'instant) nos capacités cognitives de perception. Par contre il est tout à fait possible, par le biais d'algorithme de réduction de dimensions, de projeter un tel espace dans un plan (un espace à 2 dimensions) afin de visualiser ces embeddings transformés en datapoints.
+
+## Exemples
+
+{% embed url="https://atlas.nomic.ai/" %}
+
+## SISB
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a data-mention href="../iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/cartographies-semantiques-de-collection.md">cartographies-semantiques-de-collection.md</a></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
+
+
 

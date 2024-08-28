@@ -27,3 +27,5 @@
     * [GenAI : RAG sur métadonnées bibliographiques](iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/applications-de-rag/genai-rag-sur-metadonnees-bibliographiques.md)
   * [Pipelines d'extraction de données](iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/pipelines-dextraction-de-donnees.md)
   * [Agent LLM avec tools](iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/agent-llm-avec-tools.md)
+  * [Systèmes multi-agents](iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/systemes-multi-agents.md)
+  * [Cartographies sémantiques de collection](iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/cartographies-semantiques-de-collection.md)
