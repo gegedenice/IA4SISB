@@ -37,7 +37,28 @@ Ceci dit, avec la tendance en cours de création de modèles plus légers car sp
 
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Agents et fonctions" %}
+## Principes des agents LLM
 
+Les agents à base de LLM, appelés agents LLM, sont des systèmes d'IA avancés conçus pour permettre à un modèle d’accomplir une ou plusieurs tâches complexes nécessitant un raisonnement séquentiel. En général les architectures des agents LLM impliquent et articulent plusieurs composants (ou modules) tels que le raisonnement par étapes, la planification, la mémoire ou encore des bases de connaissances ou services externes.
+
+## Principes des "tools" (ajout de fonctionnalités)
+
+Les outils (“Tools”) correspondent à ces ensemble d'outils tiers qui permettent à l'agent LLM d'interagir avec des environnements externes tels que des API, des KBs, des interpréteurs de code (capable d’exécuter des blocs de code), le moteur “Math” pour les opérations mathématiques, et tout autre outil customisé. Les appels à ces outils durant le flux de travail de l’agent l’aide à obtenir des observations ou des informations nécessaires pour compléter la réalisation des sous-tâches.
+
+## Exemple : data analyst agent
+
+{% embed url="https://huggingface.co/spaces/m-ric/agent-data-analyst" %}
+
+## SISB
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a data-mention href="../presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/agent-llm-avec-tools.md">agent-llm-avec-tools.md</a></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Systèmes multi-agents" %}
+## Principes
+
+Les systèmes d'IA multi-agents consistent à associer plusieurs agents décisionnels interagissant les uns avec les autres pour résoudre des tâches complexes nécessitant la mise en oeuvre de raisonnements et de planification, chaque agent assumant un rôle unique dans le processus de génération.
 {% endtab %}
 {% endtabs %}
+
