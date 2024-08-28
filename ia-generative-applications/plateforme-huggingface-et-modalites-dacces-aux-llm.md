@@ -65,7 +65,7 @@ Modèles déposés par l'EPFL : [https://huggingface.co/models?search=EPFL](http
 
 ## En pratique
 
-Comme souligné [ici](domaines-dapplications.md), la plupart des modèles de langage sont ouverts et documentés sur HuggingFace puisque l'open weight (similairement à l'open source) est autant dans l'intérêt du producteur du modèle que de l'utilisateur.
+Comme souligné [ici](domaines-dapplications-1-2.md), la plupart des modèles de langage sont ouverts et documentés sur HuggingFace puisque l'open weight (similairement à l'open source) est autant dans l'intérêt du producteur du modèle que de l'utilisateur.
 
 De plus, en lien avec la standardisation des pratiques et outils, un certain nombre de packages ou librairies (open source) facilitent grandement l’installation et le déploiement de LLM en local, la plupart fournissant même le service web d’exposition par API compatible OpenAI, pour une intégration fluidifiée avec des applications web. Dans les faits donc, à partir du moment où un modèle est ouvert, et en dehors des critères relatifs à l’infrastructure de stockage nécessaire, il est relativement aisé d’installer et d’interagir localement avec un LLM.
 

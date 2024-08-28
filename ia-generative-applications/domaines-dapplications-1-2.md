@@ -1,4 +1,4 @@
-# Domaines d'applications
+# Domaines d'applications (1/2)
 
 {% tabs %}
 {% tab title="Chatbot" %}
@@ -73,6 +73,10 @@ Il est assez facile de développer from scratch une application de RAG, néanmoi
 {% embed url="https://openwebui.com/" %}
 
 {% embed url="https://ragflow.io/" %}
+
+## SISB
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a data-mention href="sisb-pistes-dimplementation/applications-de-rag.md">applications-de-rag.md</a></td><td></td><td></td></tr><tr><td>Primo Research Assistant</td><td><a href="https://swisscovery.slsp.ch/discovery/search?vid=41SLSP_NETWORK:VU1_UNION">https://swisscovery.slsp.ch/discovery/search?vid=41SLSP_NETWORK:VU1_UNION</a></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Moteurs de recherche sémantiques" %}
@@ -97,6 +101,10 @@ Pour les moteurs de recherche généraliste (basés sur le web en temps réel), 
 {% embed url="https://www.perplexity.ai/" %}
 
 {% embed url="https://exa.ai/search" %}
+
+## SISB (idées)
+
+<table data-view="cards"><thead><tr><th align="center"></th><th></th><th></th></tr></thead><tbody><tr><td align="center"><a data-mention href="sisb-pistes-dimplementation/moteur-de-recherche-semantique.md">moteur-de-recherche-semantique.md</a></td><td></td><td></td></tr><tr><td align="center"></td><td></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Prompt Engineering" %}
@@ -126,12 +134,4 @@ Concrètement et très synthétiquement,on peut distinguer deux manières d’ap
 {% embed url="https://huggingface.co/spaces/Geraldine/prompts_library" %}
 {% endtab %}
 {% endtabs %}
-
-
-
-
-
-### Exemples SISB
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 

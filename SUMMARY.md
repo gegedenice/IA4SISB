@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Bases théorique : IA classique, IA générative, AGI](README.md)
+* [Bases théoriques : synthèse](bases-theoriques-synthese.md)
 
 ## Machine Learning : applications
 
@@ -14,10 +15,11 @@
 ## IA générative : applications
 
 * [Plateforme HuggingFace et modalités d'accès aux LLM](ia-generative-applications/plateforme-huggingface-et-modalites-dacces-aux-llm.md)
-* [Domaines d'applications](ia-generative-applications/domaines-dapplications.md)
+* [Domaines d'applications (1/2)](ia-generative-applications/domaines-dapplications-1-2.md)
+* [Domaines d'application (2/2)](ia-generative-applications/domaines-dapplication-2-2.md)
 * [SISB : pistes d'implémentation](ia-generative-applications/sisb-pistes-dimplementation/README.md)
-  * [Moteur de recherche académique (Infoscience)](ia-generative-applications/sisb-pistes-dimplementation/moteur-de-recherche-academique-infoscience.md)
+  * [Moteur de recherche sémantique](ia-generative-applications/sisb-pistes-dimplementation/moteur-de-recherche-semantique.md)
   * [Applications de RAG](ia-generative-applications/sisb-pistes-dimplementation/applications-de-rag.md)
   * [Primo research assistant](https://swisscovery.slsp.ch/discovery/search?vid=41SLSP\_NETWORK:VU1\_UNION)
   * [GenAI : RAG sur métadonnées bibliographiques](ia-generative-applications/sisb-pistes-dimplementation/genai-rag-sur-metadonnees-bibliographiques.md)
-  * [Extraction de données](ia-generative-applications/sisb-pistes-dimplementation/extraction-de-donnees.md)
+  * [Pipelines d'extraction de données](ia-generative-applications/sisb-pistes-dimplementation/pipelines-dextraction-de-donnees.md)
