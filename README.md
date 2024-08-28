@@ -107,12 +107,7 @@ Faire de l’inférence sur des LLM consiste ainsi à interagir avec le modèle 
 
 1. Standardisation des outils : au fil du temps on observe tout à la fois une forte démocratisation de l’accès aux LLM et leur environnement technique, une homogénéisation des pratiques en lien avec un socle commun de guidelines ainsi que l’émergence de plateformes et frameworks reconnus et massivement utilisés
 
-\-> Plateforme HuggingFace (le “github des LLM”) pour la diffusion et la documentation des modèles et des datasets d’entraînement
-
-\-> Inférence sur LLM via des API
-
-* API de bas niveau : librairie sentence-transformers
-* API de type Rest : client OpenAI, client d’inférence HuggingFace
+\-> voir cette page [plateforme-huggingface-et-modalites-dacces-aux-llm.md](ii.-ia-generative-applications/plateforme-huggingface-et-modalites-dacces-aux-llm.md "mention")
 
 \-> Deux frameworks Python et Javascript principaux : Langchain et Llamaindex
 
