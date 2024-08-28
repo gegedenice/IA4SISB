@@ -9,3 +9,7 @@
 
 * Workflow d'océrisation
 * Pipeline d'extraction de données structurées à partir de PDF ou d'images&#x20;
+
+## Catalogage
+
+* Génération de métadonnées en Marc à partir de la couverture
