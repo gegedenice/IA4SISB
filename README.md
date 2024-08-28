@@ -130,7 +130,13 @@ Faire de l’inférence sur des LLM consiste ainsi à interagir avec le modèle 
 {% endtab %}
 
 {% tab title="AGI" %}
+## Principes
 
+Une IA de type AGI (ou IAG pour Intelligence Artificielle Générale) est une IA complète, capable d'exécuter des tâches avec des niveaux cognitifs humains.
+
+Pour l'instant l'AGI est un domaine de recherche (voire une quête) théorique sur l'IA qui pousse la logique de l'IA forte au maximum et qui vise à créer des logiciels dotés d'une intelligence similaire à celle des humains et capables d'auto-apprentissage. L'objectif est que le logiciel soit capable d'effectuer des tâches complexes, nécessitant des capacités cognitives et de compréhension humaines pour lesquelles il n'est pas nécessairement entraîné, et ce sans intervention manuelle humaine .
+
+De tels systèmes d'IA, impliquant des capacités d'auto-évaluation et auto-contrôle, induisent donc un degré raisonnable de conscience de soi, et restent donc pour l'instant des objectifs de recherche théoriques
 {% endtab %}
 {% endtabs %}
 
