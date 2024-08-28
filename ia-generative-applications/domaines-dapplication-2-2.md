@@ -31,7 +31,7 @@ Ceci dit, avec la tendance en cours de création de modèles plus légers car sp
 
 ### SISB
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a data-mention href="sisb-pistes-dimplementation/pipelines-dextraction-de-donnees.md">pipelines-dextraction-de-donnees.md</a></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a data-mention href="../presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/pipelines-dextraction-de-donnees.md">pipelines-dextraction-de-donnees.md</a></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
 \
 

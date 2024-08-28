@@ -76,7 +76,7 @@ Il est assez facile de développer from scratch une application de RAG, néanmoi
 
 ## SISB
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a data-mention href="sisb-pistes-dimplementation/applications-de-rag.md">applications-de-rag.md</a></td><td></td><td></td></tr><tr><td>Primo Research Assistant</td><td><a href="https://swisscovery.slsp.ch/discovery/search?vid=41SLSP_NETWORK:VU1_UNION">https://swisscovery.slsp.ch/discovery/search?vid=41SLSP_NETWORK:VU1_UNION</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a data-mention href="../presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/applications-de-rag.md">applications-de-rag.md</a></td><td></td><td></td></tr><tr><td>Primo Research Assistant</td><td><a href="https://swisscovery.slsp.ch/discovery/search?vid=41SLSP_NETWORK:VU1_UNION">https://swisscovery.slsp.ch/discovery/search?vid=41SLSP_NETWORK:VU1_UNION</a></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Moteurs de recherche sémantiques" %}
@@ -104,7 +104,7 @@ Pour les moteurs de recherche généraliste (basés sur le web en temps réel), 
 
 ## SISB (idées)
 
-<table data-view="cards"><thead><tr><th align="center"></th><th></th><th></th></tr></thead><tbody><tr><td align="center"><a data-mention href="sisb-pistes-dimplementation/moteur-de-recherche-semantique.md">moteur-de-recherche-semantique.md</a></td><td></td><td></td></tr><tr><td align="center"></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th><th></th><th></th></tr></thead><tbody><tr><td align="center"><a data-mention href="../presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/moteur-de-recherche-semantique.md">moteur-de-recherche-semantique.md</a></td><td></td><td></td></tr><tr><td align="center"></td><td></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Prompt Engineering" %}
