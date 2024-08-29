@@ -13,6 +13,10 @@ Démo en local (avec anythingLLM) : [http://localhost:3001/workspace/rdm](http:/
 
 * Infoscience
 
+\-> Assistant RAG de réponses au service de ticketing
+
+\-> Chatbot de RAG sur documentation utilisateur  : voir par exemple [https://chat.langchain.com/](https://chat.langchain.com/)
+
 \-> RAG sur abstracts/fulltext de thèses
 
 \-> Ajout d’un format d’export du fulltext en embeddings
