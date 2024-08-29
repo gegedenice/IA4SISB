@@ -2,10 +2,15 @@
 
 ## RAG sur PV équipe de direction
 
+Démo en local (avec anythingLLM) : [http://localhost:3001/workspace/pv\_dir](http://localhost:3001/workspace/pv\_dir)
+
 ## Autres pistes d'implémentation
 
 * Chatbot de RAG sur procédures guichet
 * Assistant RAG de rédaction de mails pour équipe Data Research
+
+Démo en local (avec anythingLLM) : [http://localhost:3001/workspace/rdm](http://localhost:3001/workspace/rdm)
+
 * Infoscience
 
 \-> RAG sur abstracts/fulltext de thèses

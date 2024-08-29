@@ -15,6 +15,7 @@
 ## III. Présentation équipe dir
 
 * [Bases théoriques : map](iii.-presentation-equipe-dir/bases-theoriques-map.md)
+* [Pistes d'implémentation : map](iii.-presentation-equipe-dir/pistes-dimplementation-map.md)
 * [Machine Learning : pistes d'implémentation SISB](iii.-presentation-equipe-dir/machine-learning-pistes-dimplementation-sisb/README.md)
   * [Outil d'aide aux acquisitions](iii.-presentation-equipe-dir/machine-learning-pistes-dimplementation-sisb/outil-daide-aux-acquisitions.md)
   * [Outil d'aide au desherbage](iii.-presentation-equipe-dir/machine-learning-pistes-dimplementation-sisb/outil-daide-au-desherbage.md)

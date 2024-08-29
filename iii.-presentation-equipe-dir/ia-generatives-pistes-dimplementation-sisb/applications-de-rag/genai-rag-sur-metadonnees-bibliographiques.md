@@ -4,6 +4,6 @@ Faire du RAG sur des métadonnées bibliographiques se révèle paradoxalement p
 
 il existe tout de même des solutions, qui  consistent par exemple à combiner les représentations vectorielles sémantiques des métadonnées avec d’autres types de représentation (par exemple en graphe) pour générer un système de recherche hybride.
 
-Exemple : [https://iaetbibliotheques.fr/2024/06/faire-du-rag-sur-des-metadonnees-documentaires-pourquoi-ca-ne-va-pas-etre-si-simple](https://iaetbibliotheques.fr/2024/06/faire-du-rag-sur-des-metadonnees-documentaires-pourquoi-ca-ne-va-pas-etre-si-simple)
+Ressource : [https://iaetbibliotheques.fr/2024/06/faire-du-rag-sur-des-metadonnees-documentaires-pourquoi-ca-ne-va-pas-etre-si-simple](https://iaetbibliotheques.fr/2024/06/faire-du-rag-sur-des-metadonnees-documentaires-pourquoi-ca-ne-va-pas-etre-si-simple)
 
 \
