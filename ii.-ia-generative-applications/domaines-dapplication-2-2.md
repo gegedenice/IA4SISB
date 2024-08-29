@@ -68,7 +68,7 @@ Les systèmes d'IA multi-agents consistent à associer plusieurs agents décisio
 
 ## SISB
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a data-mention href="../iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/systemes-multi-agents.md">systemes-multi-agents.md</a></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a data-mention href="../iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/systemes-multi-agents/">systemes-multi-agents</a></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Cartographie" %}

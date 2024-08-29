@@ -28,5 +28,6 @@
   * [Pipelines d'extraction de données](iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/pipelines-dextraction-de-donnees/README.md)
     * [Alma AI Metadata Assistant](https://exlibrisgroup.com/blog/artificial-intelligence-blog-series-introducing-the-ai-metadata-assistant-in-the-alma-metadata-editor/)
   * [Agent LLM avec tools](iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/agent-llm-avec-tools.md)
-  * [Systèmes multi-agents](iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/systemes-multi-agents.md)
+  * [Systèmes multi-agents](iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/systemes-multi-agents/README.md)
+    * [Exemple de rapport](iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/systemes-multi-agents/exemple-de-rapport.md)
   * [Cartographies sémantiques de collection](iii.-presentation-equipe-dir/ia-generatives-pistes-dimplementation-sisb/cartographies-semantiques-de-collection.md)
