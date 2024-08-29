@@ -10,8 +10,6 @@
 
 {% embed url="https://huggingface.co/spaces/OpenGVLab/InternVL" %}
 
-Autres : OCR dans Edge
-
 ### LLM
 
 {% embed url="https://huggingface.co/spaces/Geraldine/prompts_library" %}
@@ -19,6 +17,8 @@ Autres : OCR dans Edge
 ### SLM
 
 {% embed url="http://localhost:8501/structured_data_extraction" %}
+
+Autres : OCR dans Edge
 
 ## Application (? ) : Thèses EPFL
 
