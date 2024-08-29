@@ -6,7 +6,7 @@ description: Sur Infoscience ?
 
 ## Moteur de recherche généraliste
 
-Exemple : [Perplexica](https://github.com/ItzCrazyKns/Perplexica)
+Démo en local (avec Perplexica) : [http://localhost:3003/](http://localhost:3003/)
 
 ## Moteur de recherche sur métadonnées de publications
 
