@@ -17,6 +17,8 @@ Les chatbots (agents logiciels conversationnels simulant une conversation humain
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://projector.tensorflow.org/" %}
+
 ### Exemples
 
 * Chatbot classique
