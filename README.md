@@ -1,5 +1,7 @@
 ---
 description: Fondements (théoriques) de l’IA
+cover: .gitbook/assets/rm373batch5-18.jpg
+coverY: 0
 ---
 
 # Bases théorique : IA classique, IA générative, AGI
