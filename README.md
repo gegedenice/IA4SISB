@@ -1,10 +1,16 @@
 ---
-description: Fondements (théoriques) de l’IA
+description: Fondements (théoriques) de l'IA
 cover: .gitbook/assets/rm373batch5-18.jpg
 coverY: 0
 ---
 
 # Bases théorique : IA classique, IA générative, AGI
+
+{% hint style="info" %}
+Dépôt Github (contenu du Gitbook) : [https://github.com/gegedenice/IA4SISB](https://github.com/gegedenice/IA4SISB)
+
+Url publique du Gitbook : [https://killgeff1971.gitbook.io/ia-sisb](https://killgeff1971.gitbook.io/ia-sisb)
+{% endhint %}
 
 Les algorithmes d’IA au sens large reposent sur des fondements statistiques du siècle dernier (voire avant) et sont utilisés couramment dans des systèmes informatiques depuis une quinzaine d’années.
 
